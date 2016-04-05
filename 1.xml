@@ -1,16 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="69" inline="true" x="250" y="59">
+  <block type="controls_repeat" id="1" inline="true" x="250" y="59">
     <value name="TIMES">
-      <block type="math_number" id="76">
-        <field name="NUM">2</field>
+      <block type="math_number" id="2">
+        <field name="NUM">3</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="1">
+      <block type="multimedia_playwav" id="13">
+        <field name="WAV">beep.w</field>
         <next>
-          <block type="robot_delay" id="2" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="3">
+              <block type="math_number" id="5">
                 <field name="NUM">1500</field>
               </block>
             </value>
@@ -19,7 +20,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="102"></block>
+      <block type="movement_stop" id="6"></block>
     </next>
   </block>
 </xml>
